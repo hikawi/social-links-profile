@@ -14,7 +14,7 @@ export default function Profile() {
     <div className="flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800 font-inter text-paragraph w-full md:w-[28rem] lg:w-96 dark:text-white p-6 md:p-10 gap-6 text-center rounded-xl">
       <img src="/avatar-jessica.jpeg" alt="Jessica" className="rounded-full size-[5.5rem]" />
       <div>
-        <h1 className="text-2xl">Jessica Randall</h1>
+        <h1 className="text-2xl font-semibold">Jessica Randall</h1>
         <h2 className="text-sm dark:text-green-500 font-bold text-lime-600">London, United Kingdom</h2>
       </div>
       <p className="text-sm">"Front-end developer and avid reader."</p>

@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setDarkMode(true);
+    if (!window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setDarkMode(false);
     }
   }, []);
 
